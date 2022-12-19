@@ -14,6 +14,7 @@
     {"id":{"name":"tree_shroom_obj","path":"objects/tree_shroom_obj/tree_shroom_obj.yy",},"order":9,},
     {"id":{"name":"tree_shroom_spr","path":"sprites/tree_shroom_spr/tree_shroom_spr.yy",},"order":15,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
+    {"id":{"name":"forest_tileset","path":"tilesets/forest_tileset/forest_tileset.yy",},"order":1,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
     {"id":{"name":"tree_bob_spr","path":"sprites/tree_bob_spr/tree_bob_spr.yy",},"order":12,},
     {"id":{"name":"player_right","path":"sprites/player_right/player_right.yy",},"order":3,},
@@ -21,6 +22,7 @@
     {"id":{"name":"crash_site","path":"rooms/crash_site/crash_site.yy",},"order":1,},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"order":1,},
     {"id":{"name":"tree_broccoli_obj","path":"objects/tree_broccoli_obj/tree_broccoli_obj.yy",},"order":6,},
+    {"id":{"name":"outcast","path":"rooms/outcast/outcast.yy",},"order":2,},
     {"id":{"name":"tree_grinch_spr","path":"sprites/tree_grinch_spr/tree_grinch_spr.yy",},"order":11,},
     {"id":{"name":"tree_glowing_spr","path":"sprites/tree_glowing_spr/tree_glowing_spr.yy",},"order":9,},
     {"id":{"name":"Random_ts","path":"sprites/Random_ts/Random_ts.yy",},"order":5,},
@@ -50,6 +52,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"crash_site","path":"rooms/crash_site/crash_site.yy",},},
+    {"roomId":{"name":"outcast","path":"rooms/outcast/outcast.yy",},},
     {"roomId":{"name":"choke_point","path":"rooms/choke_point/choke_point.yy",},},
   ],
   "Folders": [
