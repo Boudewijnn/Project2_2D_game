@@ -14,11 +14,11 @@ for (var i = 0; i < array_length(inv); i++)
 	if selected_item == i { _col = c_yellow; };
 	draw_set_color(_col);
 	
-	draw_text( _xx + 16, _yy + _sep*i, inv[i].name );
+	draw_text( _xx + 10, _yy + _sep*i-2, inv[i].name );
 	
 	if selected_item == i 
 		{
-		draw_text_ext( _xx, _yy + _sep*array_length(inv), inv[i].description, 12, 80 );
+		draw_text_ext( _xx, _yy + _sep*array_length(inv)-5, inv[i].description, 12, 80 );
 		}
 	draw_set_color(c_white);
 }
