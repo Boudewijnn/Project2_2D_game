@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "other",
-    "path": "folders/Objects/other.yy",
+    "name": "Inventory",
+    "path": "folders/Objects/Inventory.yy",
   },
 }

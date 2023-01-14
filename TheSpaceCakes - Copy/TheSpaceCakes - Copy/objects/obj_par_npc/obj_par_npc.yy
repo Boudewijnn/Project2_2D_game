@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_speakblock",
-  "spriteId": {
-    "name": "spr_speakblock_crm",
-    "path": "sprites/spr_speakblock_crm/spr_speakblock_crm.yy",
-  },
+  "name": "obj_par_npc",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
