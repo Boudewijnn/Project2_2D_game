@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "dialogues",
-    "path": "folders/Sprites/dialogues.yy",
+    "name": "Dialogues",
+    "path": "folders/Sprites/Dialogues.yy",
   },
 }

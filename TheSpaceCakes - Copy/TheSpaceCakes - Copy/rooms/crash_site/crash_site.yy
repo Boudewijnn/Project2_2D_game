@@ -17,7 +17,6 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npcDialogues","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52E52B2C","properties":[],"isDnd":false,"objectId":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A9EA241","properties":[],"isDnd":false,"objectId":{"name":"audio","path":"objects/audio/audio.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":0.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"player","instances":[
@@ -173,7 +172,6 @@
     {"name":"inst_755838E4","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_271DAB81","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_3B22FD9B","path":"rooms/crash_site/crash_site.yy",},
-    {"name":"inst_52E52B2C","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_DC854DA","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_5A86D183","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_3A9EA241","path":"rooms/crash_site/crash_site.yy",},

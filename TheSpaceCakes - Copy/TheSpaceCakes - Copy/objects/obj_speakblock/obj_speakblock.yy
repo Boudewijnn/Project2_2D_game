@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_speakblock",
   "spriteId": {
-    "name": "spr_speakblock2",
-    "path": "sprites/spr_speakblock2/spr_speakblock2.yy",
+    "name": "spr_speakblock_crm",
+    "path": "sprites/spr_speakblock_crm/spr_speakblock_crm.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "dialogues",
-    "path": "folders/Objects/dialogues.yy",
+    "name": "Dialogues",
+    "path": "folders/Objects/Dialogues.yy",
   },
 }
