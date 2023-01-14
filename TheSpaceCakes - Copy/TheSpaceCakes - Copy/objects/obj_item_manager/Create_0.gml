@@ -22,7 +22,7 @@ global.item_list =
 	{
 
 	burger : new create_item(
-		"BURGIR", 
+		"burgir", 
 		"This is your first item! You can use it by clicking on it.", 
 		spr_burger,
 		

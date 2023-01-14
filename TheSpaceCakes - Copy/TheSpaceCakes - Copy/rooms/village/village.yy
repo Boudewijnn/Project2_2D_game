@@ -16,10 +16,10 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npcDialogues","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F7127A0","properties":[],"isDnd":false,"objectId":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":399.0,"y":193.0,},
-      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51CAA07A","properties":[],"isDnd":false,"objectId":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":587.0,"y":352.0,},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npcDialogues","instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"door","instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_98328C3_1_1","properties":[],"isDnd":false,"objectId":{"name":"background_obj","path":"objects/background_obj/background_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-288.0,"y":0.0,},
@@ -36,7 +36,7 @@
 134,2,2,3,-18,-2147483648,4,33,34,34,385,-14,34,-9,385,-11,34,-2,385,-4,34,1,35,-17,-2147483648,4,1,135,34,385,-36,34,-2,385,-3,34,1,35,-16,-2147483648,5,1,135,34,385,385,-37,34,1,385,-3,34,1,35,-15,-2147483648,5,1,135,34,385,385,-7,
 34,1,450,-30,34,-2,385,-2,34,2,134,2,-13,-2147483648,5,1,135,34,385,385,-37,34,4,450,34,34,385,-4,34,-12,-2147483648,5,1,135,34,385,385,-41,34,1,385,-4,34,-10,-2147483648,6,1,2,135,34,385,385,-42,34,-2,385,-3,34,-9,-2147483648,2,1,135,
 -3,34,1,385,-44,34,1,385,-3,34,-8,-2147483648,2,1,135,-4,34,1,385,-44,34,1,385,-3,34,-6,-2147483648,3,1,2,135,-5,34,1,417,-44,34,1,417,-3,34,1,0,-4,-2147483648,2,1,135,-7,34,1,417,-44,34,1,417,-3,34,-5,2,1,135,-8,
-34,1,417,-44,34,1,417,-3,34,-3,162,1,163,-10,34,1,417,-20,34,3,417,514,417,-21,34,1,417,-3,34,-3,226,1,227,-10,34,1,417,-22,34,1,450,-21,34,1,417,-3,34,-4,66,-10,34,1,417,-37,34,1,450,-6,34,1,417,-3,34,
+34,1,417,-44,34,1,417,-3,34,-3,162,1,163,-10,34,1,417,-20,34,3,417,290,417,-21,34,1,417,-3,34,-3,226,1,227,-10,34,1,417,-22,34,1,450,-21,34,1,417,-3,34,-4,66,-10,34,1,417,-37,34,1,450,-6,34,1,417,-3,34,
 -4,-2147483648,2,65,103,-8,34,1,385,-44,34,1,417,-3,34,-5,-2147483648,1,33,-8,34,1,385,-44,34,1,385,-3,34,-5,-2147483648,2,65,103,-8,34,1,385,-43,34,1,385,-3,34,-6,-2147483648,2,65,103,-7,34,-2,385,-40,34,-3,385,-3,34,-7,-2147483648,1,33,
 -8,34,-2,385,-36,34,-4,385,-5,34,-7,-2147483648,2,65,103,-8,34,-2,385,-34,34,1,385,-9,34,-8,-2147483648,1,33,-9,34,-2,385,-31,34,-3,385,-9,34,-8,-2147483648,2,65,103,-9,34,-2,385,-28,34,-3,385,-11,34,-9,-2147483648,2,65,103,-9,34,-3,385,
 -25,34,-2,385,-9,34,1,102,-3,66,-10,-2147483648,2,65,103,-10,34,-4,385,-20,34,-3,385,-8,34,3,102,66,67,-14,-2147483648,4,65,66,66,103,-10,34,-4,385,-15,34,-3,385,-3,34,1,102,-6,66,1,67,-19,-2147483648,3,65,66,103,-11,34,-3,385,-5,
@@ -53,7 +53,7 @@
     {"name":"inst_6C944AA6","path":"rooms/village/village.yy",},
     {"name":"inst_23FFEB5E","path":"rooms/village/village.yy",},
     {"name":"inst_235489BE","path":"rooms/village/village.yy",},
-    {"name":"inst_2F7127A0","path":"rooms/village/village.yy",},
+    {"name":"inst_51CAA07A","path":"rooms/village/village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

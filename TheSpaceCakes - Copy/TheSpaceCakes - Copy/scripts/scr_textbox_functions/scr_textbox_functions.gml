@@ -1,16 +1,55 @@
- function scr_set_defaults_for_text() {
+function scr_set_defaults_for_text() {
 	line_break_pos[0, page_number] = 999;
 	line_break_num[page_number] = 0;
 	line_break_offset[page_number] = 0;
+	
+	txtb_spr[page_number] = spr_textbox;
+	speaker_sprite[page_number] = noone;
+	speaker_side[page_number] = 1;
+	snd[page_number] = snd_click;
 }
 
 
 /// @param text
+/// @param [player]
+/// @param [side]
 function scr_text(_text){
 
 	scr_set_defaults_for_text();
 
 	text[page_number] = _text;
+
+	//get character info
+	if argument_count > 1 {
+		switch(argument[1])
+			{
+				
+			// player
+			case "player":
+				speaker_sprite[page_number] = spr_player_spk;
+				txtb_spr[page_number] = spr_textbox_blue;
+				snd[page_number] = snd_click;
+				break;
+			case "player_happy":
+				speaker_sprite[page_number] = spr_player_happy;
+				txtb_spr[page_number] = spr_textbox_blue_happy;
+				snd[page_number] = snd_click;
+				break;
+				
+			// crewmate 1
+			case "crw_1_cry":
+				speaker_sprite[page_number] = spr_crewmate_1;
+				txtb_spr[page_number] = spr_textbox_green;
+				snd[page_number] = snd_click;
+				break;
+			}
+			
+		}
+		
+	// side the character is on
+	if argument_count > 2 {
+		speaker_side[page_number] = argument[2];
+		}
 
 	page_number++;
 
