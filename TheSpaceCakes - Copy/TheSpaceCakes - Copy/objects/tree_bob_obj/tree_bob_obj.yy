@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_par_enviroment_plants",
+    "path": "objects/obj_par_enviroment_plants/obj_par_enviroment_plants.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

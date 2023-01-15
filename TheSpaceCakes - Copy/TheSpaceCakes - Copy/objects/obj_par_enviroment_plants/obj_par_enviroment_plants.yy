@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "tree_bush_obj",
-  "spriteId": {
-    "name": "tree_bush_spr",
-    "path": "sprites/tree_bush_spr/tree_bush_spr.yy",
-  },
+  "name": "obj_par_enviroment_plants",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_par_enviroment_plants",
-    "path": "objects/obj_par_enviroment_plants/obj_par_enviroment_plants.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Enviroment/Objects.yy",
+    "name": "Functions",
+    "path": "folders/Objects/Enviroment/Functions.yy",
   },
 }

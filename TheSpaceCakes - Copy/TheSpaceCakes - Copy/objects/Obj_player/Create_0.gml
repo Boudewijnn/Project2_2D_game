@@ -10,3 +10,4 @@ sprite[DOWN] = player_down;
 
 
 face = DOWN;
+

@@ -1,14 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_settings",
-  "spriteId": null,
+  "name": "obj_crm_green",
+  "spriteId": {
+    "name": "spr_crm_green",
+    "path": "sprites/spr_crm_green/spr_crm_green.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_par_npc",
+    "path": "objects/obj_par_npc/obj_par_npc.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogues",
-    "path": "folders/Objects/Dialogues.yy",
+    "name": "Characters",
+    "path": "folders/Objects/Characters.yy",
   },
 }

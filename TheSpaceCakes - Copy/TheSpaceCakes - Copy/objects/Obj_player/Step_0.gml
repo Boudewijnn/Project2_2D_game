@@ -40,7 +40,8 @@ if place_meeting( x, y + yspd, Obj_wall ) == true
 x += xspd;
 y += yspd; 
 
-
+// depth sorting 
+depth = -y;
 
 
 
