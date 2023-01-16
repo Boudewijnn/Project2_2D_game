@@ -1,4 +1,4 @@
-right_key = keyboard_check(ord("D"));
+ right_key = keyboard_check(ord("D"));
 left_key = keyboard_check(ord("A"));
 up_key = keyboard_check(ord("W"));
 down_key = keyboard_check(ord("S"));
@@ -36,6 +36,15 @@ if place_meeting( x, y + yspd, Obj_wall ) == true
 	yspd = 0;
 	}
 
+if place_meeting( x + xspd, y, obj_par_doors ) == true
+	{
+	xspd = 0;
+	}
+if place_meeting( x, y + yspd, obj_par_doors ) == true
+	{
+	yspd = 0; 
+	}
+
 // objects collisions that i wish will work bc they are from different tutorials and im trying not to cry *Jagoda* Update: WORKING YAAAY
 if (xspd != 0 || yspd != 0) {
 	if !collision_point(x+xspd, y, obj_par_enviroment, true, true) {
@@ -45,6 +54,9 @@ if (xspd != 0 || yspd != 0) {
 	y += yspd; 
 	}
 }
+
+
+
 
 // check for collisions with NPCs
 nearbyNPC = collision_rectangle(x-lookRange, y-lookRange, x+lookRange, y+lookRange, obj_par_npc, false, true);

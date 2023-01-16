@@ -17,6 +17,7 @@
     {"id":{"name":"Script_macros","path":"scripts/Script_macros/Script_macros.yy",},"order":0,},
     {"id":{"name":"player_up","path":"sprites/player_up/player_up.yy",},"order":3,},
     {"id":{"name":"tiles_outside","path":"sprites/tiles_outside/tiles_outside.yy",},"order":0,},
+    {"id":{"name":"obj_door_4","path":"objects/obj_door_4/obj_door_4.yy",},"order":9,},
     {"id":{"name":"village","path":"rooms/village/village.yy",},"order":4,},
     {"id":{"name":"obj_crm_green","path":"objects/obj_crm_green/obj_crm_green.yy",},"order":1,},
     {"id":{"name":"spr_key_3","path":"sprites/spr_key_3/spr_key_3.yy",},"order":10,},
@@ -105,13 +106,14 @@
     {"id":{"name":"spr_key_1","path":"sprites/spr_key_1/spr_key_1.yy",},"order":8,},
     {"id":{"name":"obj_npc_villager3","path":"objects/obj_npc_villager3/obj_npc_villager3.yy",},"order":8,},
     {"id":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"order":2,},
+    {"id":{"name":"spr_door_4","path":"sprites/spr_door_4/spr_door_4.yy",},"order":12,},
     {"id":{"name":"player_down","path":"sprites/player_down/player_down.yy",},"order":0,},
     {"id":{"name":"choke_point","path":"rooms/choke_point/choke_point.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -167,6 +169,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.11.1.56",
   },
 }

@@ -131,7 +131,27 @@ global.item_list =
 	
 	),
 		
+			yellowkey : new create_item(
+		"yellow key",
+		"Opens yellow doors",
+		spr_key_4,
 		
+		function()
+			{
+			if instance_exists(obj_door_4)
+				{
+				
+				with(obj_door_4)
+					{
+					if distance_to_object(Obj_player) < 35 {instance_destroy();};
+					}
+					
+				}
+			
+			array_delete(inv, selected_item, 1);
+			}
+			
+		),
 	}	 
 	
 	
