@@ -105,6 +105,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72B2B57E","properties":[],"isDnd":false,"objectId":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66955B61","properties":[],"isDnd":false,"objectId":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":336.0,},
       ],"visible":false,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npc","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_304DD621","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_villager1","path":"objects/obj_npc_villager1/obj_npc_villager1.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.11753101,"scaleY":0.11484622,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":117.99317,"y":224.00285,},
+      ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"House_tiles","tilesetId":{"name":"Outside_tileset","path":"tilesets/Outside_tileset/Outside_tileset.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":32,"SerialiseHeight":25,"TileCompressedData":[
 -5,0,3,9,10,11,-8,0,1,9,-8,10,1,11,-11,0,3,9,10,11,-8,0,2,17,31,-3,10,5,4,5,5,6,
 11,-11,0,3,9,10,11,-8,0,10,44,17,31,10,10,12,13,28,22,11,-11,0,3,9,50,11,-9,0,9,44,17,18,
@@ -118,13 +121,13 @@
 4,9,10,10,49,-3,50,6,51,10,30,19,45,46,-19,0,4,9,10,10,57,-3,50,4,51,10,11,46,-21,0,1,9,
 -3,10,6,49,50,50,51,30,19,-22,0,10,17,31,10,10,49,50,50,51,11,46,-13,0,1,1,-6,2,-2,0,9,44,
 17,31,10,57,50,50,51,11,-11,0,4,1,2,2,39,-6,10,-3,0,8,44,17,31,10,57,50,51,11,-11,0,1,9,
--3,10,-6,61,-4,0,7,44,9,10,10,49,51,11,-10,0,3,1,39,10,-8,61,],},"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-3,10,-6,61,-4,0,7,44,9,10,10,49,51,11,-10,0,3,1,39,10,-8,61,],},"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":null,"x":0,"y":0,"tiles":{"SerialiseWidth":0,"SerialiseHeight":0,"TileSerialiseData":[
-],},"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+],},"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"forest","tilesetId":{"name":"forest_tileset","path":"tilesets/forest_tileset/forest_tileset.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":32,"SerialiseHeight":25,"TileCompressedData":[
 -595,-2147483648,5,0,-2147483648,-2147483648,0,0,-27,-2147483648,-13,0,-19,-2147483648,-13,0,-19,-2147483648,-13,0,-19,-2147483648,-13,0,-18,-2147483648,-14,0,-18,-2147483648,-14,0,
-],},"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":false,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+],},"visible":true,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":false,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
@@ -195,6 +198,7 @@
     {"name":"inst_3345953C","path":"rooms/choke_point/choke_point.yy",},
     {"name":"inst_25CE2B84","path":"rooms/choke_point/choke_point.yy",},
     {"name":"inst_74A52A7A","path":"rooms/choke_point/choke_point.yy",},
+    {"name":"inst_304DD621","path":"rooms/choke_point/choke_point.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

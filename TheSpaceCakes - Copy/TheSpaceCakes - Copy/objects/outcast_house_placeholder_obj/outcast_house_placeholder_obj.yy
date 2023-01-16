@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_par_enviroment_plants",
-    "path": "objects/obj_par_enviroment_plants/obj_par_enviroment_plants.yy",
+    "name": "obj_par_enviroment",
+    "path": "objects/obj_par_enviroment/obj_par_enviroment.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

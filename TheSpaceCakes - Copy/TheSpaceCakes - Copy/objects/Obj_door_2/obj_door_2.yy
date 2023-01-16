@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_par_envoirment",
-    "path": "objects/obj_par_envoirment/obj_par_envoirment.yy",
+    "name": "obj_par_doors",
+    "path": "objects/obj_par_doors/obj_par_doors.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

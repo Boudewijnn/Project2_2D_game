@@ -36,9 +36,15 @@ if place_meeting( x, y + yspd, Obj_wall ) == true
 	yspd = 0;
 	}
 
-
-x += xspd;
-y += yspd; 
+// objects collisions that i wish will work bc they are from different tutorials and im trying not to cry *Jagoda* Update: WORKING YAAAY
+if (xspd != 0 || yspd != 0) {
+	if !collision_point(x+xspd, y, obj_par_enviroment, true, true) {
+	x += xspd;
+	}
+	if !collision_point(x, y+yspd, obj_par_enviroment, true, true) {
+	y += yspd; 
+	}
+}
 
 // depth sorting 
 depth = -y;

@@ -1,3 +1,5 @@
+/// @description set variables for dialogues
+
 depth = -9999;
 
 // texbox parameters

@@ -18,6 +18,12 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npc","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55945485","properties":[],"isDnd":false,"objectId":{"name":"obj_crm_green","path":"objects/obj_crm_green/obj_crm_green.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":587.0,"y":355.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B40E73C","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_major","path":"objects/obj_npc_major/obj_npc_major.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.22424242,"scaleY":0.22267206,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":895.99994,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40D7F70F","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_trader","path":"objects/obj_npc_trader/obj_npc_trader.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.16875,"scaleY":0.1560721,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":788.5,"y":216.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10FE59E3","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_villager2","path":"objects/obj_npc_villager2/obj_npc_villager2.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.18857142,"scaleY":0.15981735,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":433.4057,"y":244.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64B36166","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_villager3","path":"objects/obj_npc_villager3/obj_npc_villager3.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.12269939,"scaleY":0.104664326,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":604.93866,"y":569.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53C3163B","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_guard","path":"objects/obj_npc_guard/obj_npc_guard.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.1662763,"scaleY":0.1790393,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":200.6206,"y":329.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D6CFE1F","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_villager4","path":"objects/obj_npc_villager4/obj_npc_villager4.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.1355657,"scaleY":0.12162162,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":625.5741,"y":384.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"door","instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enviroment","instances":[
@@ -53,6 +59,12 @@
     {"name":"inst_23FFEB5E","path":"rooms/village/village.yy",},
     {"name":"inst_235489BE","path":"rooms/village/village.yy",},
     {"name":"inst_55945485","path":"rooms/village/village.yy",},
+    {"name":"inst_7B40E73C","path":"rooms/village/village.yy",},
+    {"name":"inst_40D7F70F","path":"rooms/village/village.yy",},
+    {"name":"inst_10FE59E3","path":"rooms/village/village.yy",},
+    {"name":"inst_64B36166","path":"rooms/village/village.yy",},
+    {"name":"inst_53C3163B","path":"rooms/village/village.yy",},
+    {"name":"inst_D6CFE1F","path":"rooms/village/village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

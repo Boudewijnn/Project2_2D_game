@@ -35,18 +35,68 @@ switch(_text_id) {
 	
 	
 	
-	
-	case"npc 2":
-	scr_text("Hii, it's Lora here", "crw_1_cry", -1)
-	scr_text("what are u doing bestie", "crw_1_cry", -1)
-	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEeeEe?! BeStIeEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! BeStIeEEEeeeEEeeEe?!", "crw_1_cry", -1)
+	//----------------------Guard, con 1---------------------------//
+	case "npc_guard":
+	scr_text("I M   A   G U A R D")
+	scr_text("you shall no pass")
+	scr_text("oh okay, sorry bestie", "player")
+	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ")
 	break;
 	
-	case"npc 3":
-	scr_text("skrrrt skrrrt")
-	scr_text("i cant cook shit, guess who am i")
-	scr_text("can we scroll some more through tinder...")
+	//----------------------Major, con 1---------------------------//
+	case "npc_major":
+	scr_text("Welcome in my village, im a major")
+	scr_text("i am so gr8, i locked up youd green dude fot validating my personal space and eating a carrot");
+	scr_text("lmao chill dude", "player");
+		scr_option("what do u want for him?", "npc_major - yes");
+		scr_option("U look like a pope", "npc_major - no");
 	break;
+	//outcome 1
+	case "npc_major - yes":
+		scr_text("just gather all 2 others mates from your ship and go away")
+		break;
+	case "npc_major - no":
+		scr_text("i AM CHILL")
+		break;
+	
+	//----------------------Outcast, con 1---------------------------//
+	case "npc_outcast":
+	scr_text("HE he He heloo")
+	scr_text("im a pumpernikiel - outcast")
+	break;
+	
+	//----------------------Trader, con 1---------------------------//
+	case "npc_trader":
+	scr_text("trader")
+	scr_text("bying selling buing selling, maybe u wanna a ladder?")
+	break;
+	
+	//----------------------Villager 1, con 1---------------------------//
+	case "npc_vil_1":
+	scr_text("if you go right u will end up in village")
+	scr_text("if u go down u will be eate by the bears lmao")
+	scr_text("chose whisely")
+	break;
+	
+	//----------------------Villager 2, con 1---------------------------//
+	case "npc_vil_2":
+	scr_text("22222222222")
+	scr_text("pale sobie cygara jak nikt nie patrzy")
+	break;
+	
+	//----------------------Villager 3, con 1---------------------------//
+	case "npc_vil_3":
+	scr_text("3333333333333333333333")
+	scr_text("stary jaka ja jestem kurwa zmenczona")
+	break;
+	
+	//----------------------Villager 4, con 1---------------------------//
+	case "npc_vil_4":
+	scr_text("4444444444444444444")
+	scr_text("need 4 speed")
+	break;
+	
+	
 	
 	}
 	

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_par_envoirment",
+  "name": "obj_par_doors",
   "spriteId": null,
   "solid": false,
   "visible": true,

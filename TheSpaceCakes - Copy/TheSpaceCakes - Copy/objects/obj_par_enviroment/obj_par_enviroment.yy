@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_par_enviroment_plants",
+  "name": "obj_par_enviroment",
   "spriteId": null,
   "solid": false,
   "visible": true,
