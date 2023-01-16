@@ -73,6 +73,7 @@
     {"id":{"name":"Random_ts","path":"sprites/Random_ts/Random_ts.yy",},"order":7,},
     {"id":{"name":"tree_glowing_obj","path":"objects/tree_glowing_obj/tree_glowing_obj.yy",},"order":4,},
     {"id":{"name":"spr_door_bar","path":"sprites/spr_door_bar/spr_door_bar.yy",},"order":7,},
+    {"id":{"name":"wall_ts","path":"tilesets/wall_ts/wall_ts.yy",},"order":2,},
     {"id":{"name":"obj_npc_outcast","path":"objects/obj_npc_outcast/obj_npc_outcast.yy",},"order":4,},
     {"id":{"name":"spr_key_4","path":"sprites/spr_key_4/spr_key_4.yy",},"order":11,},
     {"id":{"name":"spr_textbox_arrow","path":"sprites/spr_textbox_arrow/spr_textbox_arrow.yy",},"order":7,},
@@ -90,6 +91,7 @@
     {"id":{"name":"spr_npc_villager3_placeholder","path":"sprites/spr_npc_villager3_placeholder/spr_npc_villager3_placeholder.yy",},"order":12,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":6,},
     {"id":{"name":"spr_crewmate_1","path":"sprites/spr_crewmate_1/spr_crewmate_1.yy",},"order":0,},
+    {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":10,},
     {"id":{"name":"obj_door_1","path":"objects/obj_door_1/obj_door_1.yy",},"order":2,},
     {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},"order":3,},
     {"id":{"name":"spr_npc_trader_placeholder","path":"sprites/spr_npc_trader_placeholder/spr_npc_trader_placeholder.yy",},"order":7,},
@@ -169,6 +171,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
