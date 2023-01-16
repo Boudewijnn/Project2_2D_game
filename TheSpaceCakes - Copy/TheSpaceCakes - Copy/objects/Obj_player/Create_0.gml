@@ -11,3 +11,6 @@ sprite[DOWN] = player_down;
 
 face = DOWN;
 
+// detecting NPCs *Jagoda*
+nearbyNPC = noone;
+lookRange = 30;
