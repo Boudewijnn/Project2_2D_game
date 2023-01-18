@@ -154,11 +154,15 @@ if accept_key
 		// destroy textbox
 		else
 			{
+				
 			// link text for opions
-			if option_number > 0 {
-				create_textbox(option_link_id[option_pos]);			
-				}
-			instance_destroy();
+		if option_number > 0 {
+			create_textbox(option_link_id[option_pos]);	
+			}
+			
+			global.playerControl = true;
+			instance_destroy()
+
 			}
 			
 		}
@@ -204,7 +208,7 @@ if draw_char == text_length[page] && page == page_number - 1
 	{
 		
 	// option selection
-	option_pos += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+	option_pos += keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"));
 	option_pos = clamp(option_pos, 0, option_number-1);
 	
 	

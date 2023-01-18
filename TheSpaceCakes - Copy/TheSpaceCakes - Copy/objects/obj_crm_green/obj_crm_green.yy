@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_crm_green",
   "spriteId": {
-    "name": "player_down",
-    "path": "sprites/player_down/player_down.yy",
+    "name": "spr_crm_green",
+    "path": "sprites/spr_crm_green/spr_crm_green.yy",
   },
   "solid": false,
   "visible": true,

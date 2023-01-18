@@ -1,8 +1,20 @@
- right_key = keyboard_check(ord("D"));
-left_key = keyboard_check(ord("A"));
-up_key = keyboard_check(ord("W"));
-down_key = keyboard_check(ord("S"));
+/// @description Player movement
 
+// check keys for movement Boudewijn || taking control away while talking Jagoda
+if (global.playerControl == true) {
+	right_key = keyboard_check(ord("D"));
+	left_key = keyboard_check(ord("A"));
+	up_key = keyboard_check(ord("W"));
+	down_key = keyboard_check(ord("S"));
+}
+if (global.playerControl == false) {
+	right_key = 0;
+	left_key = 0;
+	up_key = 0;
+	down_key = 0;
+}
+
+// calculate movement Boudewijn
 xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
 
@@ -61,9 +73,17 @@ if (xspd != 0 || yspd != 0) {
 // check for collisions with NPCs
 nearbyNPC = collision_rectangle(x-lookRange, y-lookRange, x+lookRange, y+lookRange, obj_par_npc, false, true);
 if nearbyNPC {
+	// pop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined) {
+		npcPrompt = scr_showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y-23);
+		}
+	
 	show_debug_message("player found npc");
 	}
 if !nearbyNPC {
+	// get rid of prompt
+	scr_dismissPrompt(npcPrompt, 0);
+	
 	show_debug_message("player haven't found npc");
 	}
 

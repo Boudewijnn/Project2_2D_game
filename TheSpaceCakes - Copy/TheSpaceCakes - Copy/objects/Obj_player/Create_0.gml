@@ -14,3 +14,5 @@ face = DOWN;
 // detecting NPCs *Jagoda*
 nearbyNPC = noone;
 lookRange = 30;
+
+npcPrompt = noone;
