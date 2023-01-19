@@ -11,6 +11,7 @@
     {"id":{"name":"sprite_warp_block","path":"sprites/sprite_warp_block/sprite_warp_block.yy",},"order":1,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":2,},
     {"id":{"name":"spr_door_2","path":"sprites/spr_door_2/spr_door_2.yy",},"order":5,},
+    {"id":{"name":"Obj_warp_block_house","path":"objects/Obj_warp_block_house/Obj_warp_block_house.yy",},"order":4,},
     {"id":{"name":"spr_crm_green","path":"sprites/spr_crm_green/spr_crm_green.yy",},"order":4,},
     {"id":{"name":"obj_item_manager","path":"objects/obj_item_manager/obj_item_manager.yy",},"order":7,},
     {"id":{"name":"obj_npc_villager1","path":"objects/obj_npc_villager1/obj_npc_villager1.yy",},"order":6,},
@@ -21,6 +22,7 @@
     {"id":{"name":"obj_door_4","path":"objects/obj_door_4/obj_door_4.yy",},"order":9,},
     {"id":{"name":"village","path":"rooms/village/village.yy",},"order":4,},
     {"id":{"name":"obj_crm_green","path":"objects/obj_crm_green/obj_crm_green.yy",},"order":1,},
+    {"id":{"name":"sprite_warp_block_house","path":"sprites/sprite_warp_block_house/sprite_warp_block_house.yy",},"order":2,},
     {"id":{"name":"spr_key_3","path":"sprites/spr_key_3/spr_key_3.yy",},"order":10,},
     {"id":{"name":"tree_bush_spr","path":"sprites/tree_bush_spr/tree_bush_spr.yy",},"order":4,},
     {"id":{"name":"Outside_tileset","path":"tilesets/Outside_tileset/Outside_tileset.yy",},"order":0,},
@@ -38,6 +40,7 @@
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},"order":1,},
     {"id":{"name":"obj_par_enviroment","path":"objects/obj_par_enviroment/obj_par_enviroment.yy",},"order":3,},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},"order":0,},
+    {"id":{"name":"inside_house","path":"rooms/inside_house/inside_house.yy",},"order":6,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
     {"id":{"name":"spr_prompt1","path":"sprites/spr_prompt1/spr_prompt1.yy",},"order":13,},
     {"id":{"name":"snd_type_far","path":"sounds/snd_type_far/snd_type_far.yy",},"order":2,},
@@ -48,6 +51,7 @@
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},"order":0,},
     {"id":{"name":"player_right","path":"sprites/player_right/player_right.yy",},"order":2,},
     {"id":{"name":"tree_grinch_obj","path":"objects/tree_grinch_obj/tree_grinch_obj.yy",},"order":5,},
+    {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"order":3,},
     {"id":{"name":"spr_player_happy","path":"sprites/spr_player_happy/spr_player_happy.yy",},"order":2,},
     {"id":{"name":"obj_npc_villager2","path":"objects/obj_npc_villager2/obj_npc_villager2.yy",},"order":7,},
     {"id":{"name":"crash_site","path":"rooms/crash_site/crash_site.yy",},"order":1,},
@@ -131,6 +135,7 @@
     {"roomId":{"name":"path_to_village","path":"rooms/path_to_village/path_to_village.yy",},},
     {"roomId":{"name":"village","path":"rooms/village/village.yy",},},
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
+    {"roomId":{"name":"inside_house","path":"rooms/inside_house/inside_house.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -172,6 +177,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
