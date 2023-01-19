@@ -35,12 +35,13 @@ global.item_list =
 		
 		
 	bomb : new create_item(
-		"Bomb",
+		"bomb",
 		"Open barricated doors",
 		spr_bomb,
 		
 		function()
 			{
+			var _used = false;
 			if instance_exists(obj_door_bar)
 				{
 					
@@ -51,84 +52,113 @@ global.item_list =
 				
 				with(obj_door_bar)
 					{
-					if distance_to_object(Obj_player) < 20 {instance_destroy();};
+					if distance_to_object(Obj_player) < 20 
+					{
+						instance_destroy();
+						_used = true;
+						};
 					}
 						
 				}
-			
+			if _used == true
+			{
 			array_delete(inv, selected_item, 1);
 			}
+			
+		}
 		
 		),
 		
 		
 	bluekey : new create_item(
-		"Blue Key",
+		"blue key",
 		"Opens blue doors",
 		spr_key_1,
 		
 		function()
 			{
+			var _used = false;
 			if instance_exists(obj_door_1)
 				{
 				
 				with(obj_door_1)
+							{
+					if distance_to_object(Obj_player) < 20 
 					{
-					if distance_to_object(Obj_player) < 35 {instance_destroy();};
+						instance_destroy();
+						_used = true;
+						};
 					}
-					
+						
 				}
-			
+			if _used == true
+			{
 			array_delete(inv, selected_item, 1);
 			}
-	
-	
+			
+		}
+		
 	),
 	
 		redkey : new create_item(
-		"Red Key",
+		"red key",
 		"Opens red doors",
 		spr_key_2,
 		
 		function()
 			{
+			var _used = false;
 			if instance_exists(obj_door_2)
 				{
 				
 				with(obj_door_2)
 					{
-					if distance_to_object(Obj_player) < 35 {instance_destroy();};
+					if distance_to_object(Obj_player) < 20 
+					{
+						instance_destroy();
+						_used = true;
+						};
 					}
-					
+						
 				}
-			
+			if _used == true
+			{
 			array_delete(inv, selected_item, 1);
 			}
-	
+			
+		}
+		
 	
 	),
 	
 			greenkey : new create_item(
-		"Green Key",
+		"green key",
 		"Opens green doors",
 		spr_key_3,
 		
 		function()
 			{
+			var _used = false;
 			if instance_exists(obj_door_3)
 				{
 				
 				with(obj_door_3)
+						{
+					if distance_to_object(Obj_player) < 20 
 					{
-					if distance_to_object(Obj_player) < 35 {instance_destroy();};
+						instance_destroy();
+						_used = true;
+						};
 					}
-					
+						
 				}
-			
+			if _used == true
+			{
 			array_delete(inv, selected_item, 1);
 			}
-	
-	
+			
+		}
+		
 	),
 		
 			yellowkey : new create_item(
@@ -138,19 +168,27 @@ global.item_list =
 		
 		function()
 			{
+			var _used = false;
 			if instance_exists(obj_door_4)
 				{
 				
 				with(obj_door_4)
+						{
+					if distance_to_object(Obj_player) < 20 
 					{
-					if distance_to_object(Obj_player) < 35 {instance_destroy();};
+						instance_destroy();
+						_used = true;
+						};
 					}
-					
+						
 				}
-			
+			if _used == true
+			{
 			array_delete(inv, selected_item, 1);
 			}
 			
+		}
+		
 		),
 	}	 
 	

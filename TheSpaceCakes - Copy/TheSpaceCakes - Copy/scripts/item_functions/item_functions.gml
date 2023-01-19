@@ -1,4 +1,4 @@
-//pickup items
+ //pickup items
 function item_add(_item)
 	{
 	
