@@ -21,10 +21,20 @@ for (var i = 0; i < array_length(inv); i++)
 if selected_item != -1
 	{
 
+	//use an item
 	if mouse_check_button_pressed(mb_left)
 		{
 		inv[selected_item].effect();
 		}
-
+		
+	//drop an item
+	if mouse_check_button_pressed(mb_right) && inv[selected_item].can_drop == true
+		{
+			with instance_create_depth(Obj_player.x, Obj_player.y, 0, obj_item_ingame)
+			{
+				item = other.inv[other.selected_item]
+			}
+		array_delete(inv, selected_item, 1);
+		}
 }
 

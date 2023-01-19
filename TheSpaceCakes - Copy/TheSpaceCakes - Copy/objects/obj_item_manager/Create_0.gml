@@ -4,11 +4,12 @@ global.font = cool_font;
 
 
 //item constructor
-function create_item(_name, _desc, _spr, _effect) constructor
+function create_item(_name, _desc, _spr, _candrop, _effect) constructor
 	{
 	name = _name;
 	description = _desc;
 	sprite = _spr;
+	can_drop = _candrop;
 	effect = _effect;
 	}
 
@@ -25,6 +26,7 @@ global.item_list =
 		"burgir", 
 		"This is your first item! You can use it by clicking on it.", 
 		spr_burger,
+		true,
 		
 		function()
 			{
@@ -38,6 +40,7 @@ global.item_list =
 		"bomb",
 		"Open barricated doors",
 		spr_bomb,
+		true,
 		
 		function()
 			{
@@ -74,6 +77,7 @@ global.item_list =
 		"blue key",
 		"Opens blue doors",
 		spr_key_1,
+		true,
 		
 		function()
 			{
@@ -104,6 +108,7 @@ global.item_list =
 		"red key",
 		"Opens red doors",
 		spr_key_2,
+		true,
 		
 		function()
 			{
@@ -135,6 +140,7 @@ global.item_list =
 		"green key",
 		"Opens green doors",
 		spr_key_3,
+		true,
 		
 		function()
 			{
@@ -165,6 +171,7 @@ global.item_list =
 		"yellow key",
 		"Opens yellow doors",
 		spr_key_4,
+		true,
 		
 		function()
 			{
