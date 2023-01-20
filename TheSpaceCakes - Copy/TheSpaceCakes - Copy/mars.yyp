@@ -31,6 +31,7 @@
     {"id":{"name":"spr_key_2","path":"sprites/spr_key_2/spr_key_2.yy",},"order":9,},
     {"id":{"name":"spr_prompt","path":"sprites/spr_prompt/spr_prompt.yy",},"order":12,},
     {"id":{"name":"tree_shroom_spr","path":"sprites/tree_shroom_spr/tree_shroom_spr.yy",},"order":8,},
+    {"id":{"name":"item_pickup","path":"sounds/item_pickup/item_pickup.yy",},"order":5,},
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},"order":5,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":0,},
     {"id":{"name":"forest_tileset","path":"tilesets/forest_tileset/forest_tileset.yy",},"order":1,},
