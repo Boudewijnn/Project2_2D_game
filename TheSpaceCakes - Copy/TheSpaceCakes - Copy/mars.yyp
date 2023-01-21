@@ -136,6 +136,10 @@
     {"roomId":{"name":"village","path":"rooms/village/village.yy",},},
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"roomId":{"name":"inside_house","path":"rooms/inside_house/inside_house.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
+>>>>>>> Stashed changes
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
