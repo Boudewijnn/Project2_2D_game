@@ -96,6 +96,12 @@ switch(_text_id) {
 	scr_text("need 4 speed")
 	break;
 	
+	//----------------------Guard 2, con 1------------------------------//
+	
+	case "npc_guard_2":
+	scr_text("This gate has been closed since poison crocodile started to invade our village")
+	scr_text("Sorry, pal")
+	
 	
 	
 	}
