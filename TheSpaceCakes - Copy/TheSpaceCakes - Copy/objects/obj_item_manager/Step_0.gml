@@ -35,7 +35,6 @@ if selected_item != -1
 				item = other.inv[other.selected_item]
 			}
 		array_delete(inv, selected_item, 1);
-		audio_play_sound(item_pickup, 10, false);
 		}
 }
 
