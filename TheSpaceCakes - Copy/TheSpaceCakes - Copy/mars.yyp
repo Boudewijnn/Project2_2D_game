@@ -104,7 +104,6 @@
     {"id":{"name":"spr_npc_trader_placeholder","path":"sprites/spr_npc_trader_placeholder/spr_npc_trader_placeholder.yy",},"order":7,},
     {"id":{"name":"tiles_outside18","path":"sprites/tiles_outside18/tiles_outside18.yy",},"order":1,},
     {"id":{"name":"background_obj","path":"objects/background_obj/background_obj.yy",},"order":1,},
-    {"id":{"name":"inside_cave","path":"rooms/inside_cave/inside_cave.yy",},"order":7,},
     {"id":{"name":"cool_font","path":"fonts/cool_font/cool_font.yy",},"order":0,},
     {"id":{"name":"obj_prompt","path":"objects/obj_prompt/obj_prompt.yy",},"order":3,},
     {"id":{"name":"player_left","path":"sprites/player_left/player_left.yy",},"order":1,},
@@ -140,11 +139,7 @@
     {"roomId":{"name":"village","path":"rooms/village/village.yy",},},
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"roomId":{"name":"inside_house","path":"rooms/inside_house/inside_house.yy",},},
-<<<<<<< Updated upstream
     {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
-=======
-    {"roomId":{"name":"inside_cave","path":"rooms/inside_cave/inside_cave.yy",},},
->>>>>>> Stashed changes
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
