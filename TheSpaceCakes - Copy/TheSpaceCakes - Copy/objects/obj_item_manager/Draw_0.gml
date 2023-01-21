@@ -1,11 +1,11 @@
   draw_set_font(global.font);
 
-sep = 16;
+sep = 9;
 
 for (var i = 0; i < array_length(inv); i++)
 	{
-	var _xx = camera_get_view_x(view_camera[0]) + 16;
-	var _yy = camera_get_view_y(view_camera[0]) + 16;
+	var _xx = camera_get_view_x(view_camera[0]) + 8;
+	var _yy = camera_get_view_y(view_camera[0]) + 4;
 	var _sep = sep;
 	var _col = c_white;
 	
@@ -18,7 +18,7 @@ for (var i = 0; i < array_length(inv); i++)
 	
 	if selected_item == i 
 		{
-		draw_text_ext( _xx, _yy + _sep*array_length(inv)-5, inv[i].description, 12, 80 );
+		draw_text_ext( _xx, _yy + _sep*array_length(inv)-0, inv[i].description, 12, 80 );
 		}
 	draw_set_color(c_white);
 }

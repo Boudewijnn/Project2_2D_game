@@ -37,8 +37,16 @@ global.item_list =
 		
 		
 	bomb : new create_item(
+
 		"bomb",
+
+		"Bomb",
+
 		"Open barricated doors",
+
+		"",
+		"",
+
 		spr_bomb,
 		true,
 		
@@ -74,8 +82,17 @@ global.item_list =
 		
 		
 	bluekey : new create_item(
+
 		"blue key",
+
+
+		"Blue Key",
+
 		"Opens blue doors",
+
+		"",
+		"",
+
 		spr_key_1,
 		true,
 		
@@ -105,8 +122,17 @@ global.item_list =
 	),
 	
 		redkey : new create_item(
+
 		"red key",
+
+
+		"Red Key",
+
 		"Opens red doors",
+
+		"",
+		"",
+
 		spr_key_2,
 		true,
 		
@@ -137,8 +163,16 @@ global.item_list =
 	),
 	
 			greenkey : new create_item(
+
 		"green key",
+
+		"Green Key",
+
 		"Opens green doors",
+
+		"",
+		"",
+
 		spr_key_3,
 		true,
 		
@@ -167,11 +201,21 @@ global.item_list =
 		
 	),
 		
+
 			yellowkey : new create_item(
 		"yellow key",
 		"Opens yellow doors",
 		spr_key_4,
 		true,
+
+
+
+			yellowkey : new create_item(
+		"",
+		"",
+		spr_key_4,
+		true,
+
 		
 		function()
 			{
