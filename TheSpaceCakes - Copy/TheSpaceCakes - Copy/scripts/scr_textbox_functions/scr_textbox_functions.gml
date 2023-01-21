@@ -37,14 +37,8 @@ function scr_text(_text){
 				break;
 				
 			// crewmate green
-			case "crwGreen_cry":
-				speaker_sprite[page_number] = spr_crmGreen_cry;
-				txtb_spr[page_number] = spr_textbox_green;
-				snd[page_number] = snd_click;
-				break;
-				
-			case "crwGreen_happy":
-				speaker_sprite[page_number] = spr_crmGreen_happy;
+			case "crw_1_cry":
+				speaker_sprite[page_number] = spr_crewmate_1;
 				txtb_spr[page_number] = spr_textbox_green;
 				snd[page_number] = snd_click;
 				break;
