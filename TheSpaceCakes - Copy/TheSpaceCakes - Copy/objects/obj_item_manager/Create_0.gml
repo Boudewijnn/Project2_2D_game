@@ -31,6 +31,7 @@ global.item_list =
 		function()
 			{
 			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
 			}
 		
 		),
@@ -64,6 +65,7 @@ global.item_list =
 			if _used == true
 			{
 			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
 			}
 			
 		}
@@ -96,6 +98,7 @@ global.item_list =
 			if _used == true
 			{
 			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
 			}
 			
 		}
@@ -127,6 +130,7 @@ global.item_list =
 			if _used == true
 			{
 			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
 			}
 			
 		}
@@ -159,6 +163,7 @@ global.item_list =
 			if _used == true
 			{
 			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
 			}
 			
 		}
@@ -190,6 +195,7 @@ global.item_list =
 			if _used == true
 			{
 			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
 			}
 			
 		}

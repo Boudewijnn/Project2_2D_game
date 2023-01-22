@@ -25,7 +25,6 @@ if selected_item != -1
 	if mouse_check_button_pressed(mb_left)
 		{
 		inv[selected_item].effect();
-		audio_play_sound(click, 10, false);
 		}
 		
 	//drop an item
