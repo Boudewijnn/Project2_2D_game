@@ -72,6 +72,7 @@
     {"id":{"name":"spr_bomb_weapon","path":"sprites/spr_bomb_weapon/spr_bomb_weapon.yy",},"order":1,},
     {"id":{"name":"spr_textbox_blue","path":"sprites/spr_textbox_blue/spr_textbox_blue.yy",},"order":8,},
     {"id":{"name":"outcast_house_placeholder_spr","path":"sprites/outcast_house_placeholder_spr/outcast_house_placeholder_spr.yy",},"order":9,},
+    {"id":{"name":"maze_snd","path":"sounds/maze_snd/maze_snd.yy",},"order":6,},
     {"id":{"name":"tree_grinch_spr","path":"sprites/tree_grinch_spr/tree_grinch_spr.yy",},"order":7,},
     {"id":{"name":"outcast_house_placeholder_obj","path":"objects/outcast_house_placeholder_obj/outcast_house_placeholder_obj.yy",},"order":0,},
     {"id":{"name":"tree_glowing_spr","path":"sprites/tree_glowing_spr/tree_glowing_spr.yy",},"order":6,},
@@ -184,6 +185,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.1.56",
   },
 }
