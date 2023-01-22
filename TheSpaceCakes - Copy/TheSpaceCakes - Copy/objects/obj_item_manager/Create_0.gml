@@ -22,10 +22,10 @@ function create_item(_name, _desc, _spr, _candrop, _effect) constructor
 global.item_list =
 	{
 
-	burger : new create_item(
-		"burgir", 
+	grape : new create_item(
+		"grape", 
 		"This is your first item! You can use it by clicking on it.", 
-		spr_burger,
+		spr_grape,
 		true,
 		
 		function()

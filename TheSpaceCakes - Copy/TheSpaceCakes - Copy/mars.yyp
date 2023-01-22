@@ -105,7 +105,7 @@
     {"id":{"name":"spr_crewmate_1","path":"sprites/spr_crewmate_1/spr_crewmate_1.yy",},"order":0,},
     {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":10,},
     {"id":{"name":"obj_door_1","path":"objects/obj_door_1/obj_door_1.yy",},"order":2,},
-    {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},"order":3,},
+    {"id":{"name":"spr_grape","path":"sprites/spr_grape/spr_grape.yy",},"order":3,},
     {"id":{"name":"spr_npc_trader_placeholder","path":"sprites/spr_npc_trader_placeholder/spr_npc_trader_placeholder.yy",},"order":7,},
     {"id":{"name":"tiles_outside18","path":"sprites/tiles_outside18/tiles_outside18.yy",},"order":1,},
     {"id":{"name":"background_obj","path":"objects/background_obj/background_obj.yy",},"order":1,},

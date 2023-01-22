@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_item_ingame",
   "spriteId": {
-    "name": "spr_burger",
-    "path": "sprites/spr_burger/spr_burger.yy",
+    "name": "spr_grape",
+    "path": "sprites/spr_grape/spr_grape.yy",
   },
   "solid": false,
   "visible": true,
