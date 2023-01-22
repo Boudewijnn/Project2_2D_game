@@ -1,1 +1,1 @@
-text_id = "npc_guard";
+text_id = "crm_green";

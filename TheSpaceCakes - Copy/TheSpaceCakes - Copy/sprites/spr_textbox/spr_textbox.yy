@@ -198,7 +198,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Dialogues",
-    "path": "folders/Sprites/Dialogues.yy",
+    "name": "textbox",
+    "path": "folders/Sprites/Dialogues/textbox.yy",
   },
 }

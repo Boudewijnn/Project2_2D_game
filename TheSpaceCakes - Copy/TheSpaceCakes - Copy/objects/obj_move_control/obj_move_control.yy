@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_control",
+  "name": "obj_move_control",
   "spriteId": null,
   "solid": false,
   "visible": true,

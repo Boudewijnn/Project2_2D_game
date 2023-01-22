@@ -56,6 +56,12 @@ function scr_text(_text){
 				snd[page_number] = snd_click;
 				break;
 				
+			case "crwRed_happy":
+				speaker_sprite[page_number] = spr_crmRed_happy;
+				txtb_spr[page_number] = spr_textbox_crm;
+				snd[page_number] = snd_click;
+				break;
+				
 			// crewmate yellow
 			case "crwYellow_cry":
 				speaker_sprite[page_number] = spr_crmYellow_cry;
@@ -63,13 +69,65 @@ function scr_text(_text){
 				snd[page_number] = snd_click;
 				break;
 				
-			// npc guard
-			case "guard":
-				speaker_sprite[page_number] = spr_npc_vill;
+			case "crwYellow_happy":
+				speaker_sprite[page_number] = spr_crmYellow_happy;
+				txtb_spr[page_number] = spr_textbox_crm;
+				snd[page_number] = snd_click;
+				break;
+				
+			// npc villagers
+			case "vill_1":
+				speaker_sprite[page_number] = spr_npc_vill_1;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+			
+			case "vill_2":
+				speaker_sprite[page_number] = spr_npc_vill_2;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+			
+			case "vill_3":
+				speaker_sprite[page_number] = spr_npc_vill_3;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+			
+			case "vill_4":
+				speaker_sprite[page_number] = spr_npc_vill_4;
 				txtb_spr[page_number] = spr_textbox_aliens;
 				snd[page_number] = snd_click;
 				break;
 				
+			// npc trader
+			case "trader":
+				speaker_sprite[page_number] = spr_npc_trader;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+				
+			// npc mayor
+			case "mayor":
+				speaker_sprite[page_number] = spr_npc_mayor;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+				
+			// npc guard
+			case "guard":
+				speaker_sprite[page_number] = spr_npc_guard;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+				
+			// npc outcast
+			case "outcast":
+				speaker_sprite[page_number] = spr_npc_out;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+		
 			}
 			
 		}

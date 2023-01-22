@@ -41,8 +41,9 @@ switch(_text_id) {
 	scr_text("you shall no pass", "guard", -1)
 	scr_text("oh okay, sorry bestie", "player_happy")
 	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ","crwGreen_happy", -1)
+	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ","crwRed_cry", -1)
 	scr_text("arte u lost baby girl", "guard", -1)
-	scr_text("u mean baby gorilla", "player")
+	scr_text("u mean baby gorilla fndjaognofbibviubduivbiv", "mayor")
 	scr_text("im not a monkey bruhh", "crwYellow_cry", -1)
 	scr_text("ohbbla bla bla bla bla bla bla bla bla bla bla bla ","crwYellow_cry", -1)
 	break;

@@ -30,10 +30,6 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"046e5fa1-9926-4516-90da-e50e7bc0241e",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"21abd26a-87af-48c9-bebf-f195c33726d3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9fc67f8b-7109-4e2d-9410-5d4b55c5271b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b302aa9d-ffc1-4f1c-b1c1-158ef19ec2f1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c0505da-be68-4f15-8805-1a63b9cc9093",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8691811c-8b8d-4983-b2b9-f0afbe4f0da5",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,17 +41,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"26962f4a-e7fa-4d2f-9c86-0b873b689196","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"046e5fa1-9926-4516-90da-e50e7bc0241e","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"45d14a94-5472-4ce0-96c5-ed5bfbfb00c2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21abd26a-87af-48c9-bebf-f195c33726d3","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3e1cfeb0-4938-448d-98f5-e46d03b64c0f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fc67f8b-7109-4e2d-9410-5d4b55c5271b","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"9b5e459b-e01c-45b2-8065-77422c8b9c8f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b302aa9d-ffc1-4f1c-b1c1-158ef19ec2f1","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"179a6f90-08e3-4d6d-9c7b-41f665fa118e","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c0505da-be68-4f15-8805-1a63b9cc9093","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ae3caacf-e0b8-4fd8-afda-658c6b14e2ac","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8691811c-8b8d-4983-b2b9-f0afbe4f0da5","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"93104317-e266-4a48-bd47-1f11ee757660","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"046e5fa1-9926-4516-90da-e50e7bc0241e","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b7ec65d3-c630-4091-a8bd-bbf23c768aa9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21abd26a-87af-48c9-bebf-f195c33726d3","path":"sprites/spr_crmYellow_happy/spr_crmYellow_happy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -82,7 +74,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Dialogues",
-    "path": "folders/Sprites/Dialogues.yy",
+    "name": "crm",
+    "path": "folders/Sprites/Dialogues/crm.yy",
   },
 }
