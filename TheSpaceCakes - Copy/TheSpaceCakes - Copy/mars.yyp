@@ -11,6 +11,7 @@
     {"id":{"name":"sprite_warp_block","path":"sprites/sprite_warp_block/sprite_warp_block.yy",},"order":1,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":2,},
     {"id":{"name":"spr_door_2","path":"sprites/spr_door_2/spr_door_2.yy",},"order":5,},
+    {"id":{"name":"click","path":"sounds/click/click.yy",},"order":7,},
     {"id":{"name":"Obj_warp_block_house","path":"objects/Obj_warp_block_house/Obj_warp_block_house.yy",},"order":4,},
     {"id":{"name":"spr_crm_green","path":"sprites/spr_crm_green/spr_crm_green.yy",},"order":4,},
     {"id":{"name":"obj_item_manager","path":"objects/obj_item_manager/obj_item_manager.yy",},"order":7,},
