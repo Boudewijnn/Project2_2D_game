@@ -37,8 +37,8 @@ global.item_list =
 		
 		
 	bomb : new create_item(
-		"bomb",
-		"Open barricated doors",
+		"",
+		"",
 		spr_bomb,
 		true,
 		
@@ -47,18 +47,16 @@ global.item_list =
 			var _used = false;
 			if instance_exists(obj_door_bar)
 				{
-					
-					{
-						instance_create_depth(Obj_player.x, Obj_player.y, 0, obj_bomb_weapon)	
-						instance_create_depth(Obj_player.x, Obj_player.y, 0, obj_BOOM)	
-					}
 				
 				with(obj_door_bar)
 					{
 					if distance_to_object(Obj_player) < 20 
 					{
 						instance_destroy();
+						instance_create_depth(Obj_player.x, Obj_player.y, 0, obj_bomb_weapon)	
+						instance_create_depth(Obj_player.x, Obj_player.y, 0, obj_BOOM)	
 						_used = true;
+						
 						};
 					}
 						
@@ -74,8 +72,8 @@ global.item_list =
 		
 		
 	bluekey : new create_item(
-		"blue key",
-		"Opens blue doors",
+		"",
+		"",
 		spr_key_1,
 		true,
 		
@@ -105,8 +103,8 @@ global.item_list =
 	),
 	
 		redkey : new create_item(
-		"red key",
-		"Opens red doors",
+		"",
+		"",
 		spr_key_2,
 		true,
 		
@@ -137,8 +135,8 @@ global.item_list =
 	),
 	
 			greenkey : new create_item(
-		"green key",
-		"Opens green doors",
+		"",
+		"",
 		spr_key_3,
 		true,
 		
@@ -168,8 +166,8 @@ global.item_list =
 	),
 		
 			yellowkey : new create_item(
-		"yellow key",
-		"Opens yellow doors",
+		"",
+		"",
 		spr_key_4,
 		true,
 		
