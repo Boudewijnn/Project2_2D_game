@@ -7,7 +7,7 @@
     "path": "sprites/spr_door_3/spr_door_3.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

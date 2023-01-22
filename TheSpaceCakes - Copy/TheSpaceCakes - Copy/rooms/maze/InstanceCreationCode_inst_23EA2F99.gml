@@ -1,1 +1,1 @@
-item = global.item_list.bomb1;
+item = global.item_list.greenkey1;
