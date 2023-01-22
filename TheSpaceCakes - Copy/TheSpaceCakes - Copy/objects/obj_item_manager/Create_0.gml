@@ -378,6 +378,40 @@ global.item_list =
 		}
 		
 		),
+		
+			alienkey : new create_item(
+		"",
+		"",
+		spr_key_5,
+		true,
+		
+		function()
+			{
+			var _used = false;
+			if instance_exists(thing_with_a_name)
+			
+				{
+				
+				with(thing_with_a_name)
+			
+						{
+					if distance_to_object(Obj_player) < 20 
+					{
+						instance_destroy();
+						_used = true;
+						};
+					}
+						
+				}
+			if _used == true
+			{
+			array_delete(inv, selected_item, 1);
+			audio_play_sound(click, 10, false);
+			}
+			
+		}
+		
+		),
 	}	 
 	
 	

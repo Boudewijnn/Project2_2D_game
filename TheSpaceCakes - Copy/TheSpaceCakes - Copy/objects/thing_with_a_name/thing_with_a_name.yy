@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object41",
+  "name": "thing_with_a_name",
   "spriteId": {
-    "name": "Sprite57",
-    "path": "sprites/Sprite57/Sprite57.yy",
+    "name": "sprite_for_the_thing",
+    "path": "sprites/sprite_for_the_thing/sprite_for_the_thing.yy",
   },
   "solid": false,
   "visible": true,
