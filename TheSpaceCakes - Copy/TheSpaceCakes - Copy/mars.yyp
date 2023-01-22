@@ -11,6 +11,7 @@
     {"id":{"name":"sprite_warp_block","path":"sprites/sprite_warp_block/sprite_warp_block.yy",},"order":1,},
     {"id":{"name":"spr_door_2","path":"sprites/spr_door_2/spr_door_2.yy",},"order":5,},
     {"id":{"name":"spr_crm_green","path":"sprites/spr_crm_green/spr_crm_green.yy",},"order":4,},
+    {"id":{"name":"Path9","path":"paths/Path9/Path9.yy",},"order":8,},
     {"id":{"name":"obj_item_manager","path":"objects/obj_item_manager/obj_item_manager.yy",},"order":7,},
     {"id":{"name":"obj_npc_villager1","path":"objects/obj_npc_villager1/obj_npc_villager1.yy",},"order":6,},
     {"id":{"name":"obj_par_doors","path":"objects/obj_par_doors/obj_par_doors.yy",},"order":8,},
@@ -71,6 +72,7 @@
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"order":1,},
     {"id":{"name":"Random_ts","path":"sprites/Random_ts/Random_ts.yy",},"order":7,},
     {"id":{"name":"tree_glowing_obj","path":"objects/tree_glowing_obj/tree_glowing_obj.yy",},"order":4,},
+    {"id":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"order":34,},
     {"id":{"name":"spr_door_bar","path":"sprites/spr_door_bar/spr_door_bar.yy",},"order":7,},
     {"id":{"name":"obj_npc_outcast","path":"objects/obj_npc_outcast/obj_npc_outcast.yy",},"order":4,},
     {"id":{"name":"spr_key_4","path":"sprites/spr_key_4/spr_key_4.yy",},"order":11,},
@@ -97,7 +99,12 @@
     {"id":{"name":"cool_font","path":"fonts/cool_font/cool_font.yy",},"order":0,},
     {"id":{"name":"obj_prompt","path":"objects/obj_prompt/obj_prompt.yy",},"order":10,},
     {"id":{"name":"player_left","path":"sprites/player_left/player_left.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":2,},
+=======
+    {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":1,},
+    {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":54,},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":1,},
     {"id":{"name":"spr_npc_villager1_placeholder","path":"sprites/spr_npc_villager1_placeholder/spr_npc_villager1_placeholder.yy",},"order":9,},
     {"id":{"name":"tree_bush_obj","path":"objects/tree_bush_obj/tree_bush_obj.yy",},"order":3,},

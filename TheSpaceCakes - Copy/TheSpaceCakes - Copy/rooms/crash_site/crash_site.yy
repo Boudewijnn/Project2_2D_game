@@ -20,7 +20,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A9EA241","properties":[],"isDnd":false,"objectId":{"name":"audio","path":"objects/audio/audio.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":0.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"player","instances":[
+<<<<<<< Updated upstream
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B22FD9B","properties":[],"isDnd":false,"objectId":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":130.0,"y":114.0,},
+=======
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F7E1BC7","properties":[],"isDnd":false,"objectId":{"name":"Bubble","path":"objects/Bubble/Bubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":258.0,"y":278.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_721C439C","properties":[],"isDnd":false,"objectId":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_574E60DE","properties":[],"isDnd":false,"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.8235294,"scaleY":1.9411764,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":128.0,},
+>>>>>>> Stashed changes
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43EBA97A","properties":[],"isDnd":false,"objectId":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":25.1875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-16.0,"y":110.0,},
@@ -173,12 +179,25 @@
     {"name":"inst_739C21D","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_755838E4","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_271DAB81","path":"rooms/crash_site/crash_site.yy",},
-    {"name":"inst_3B22FD9B","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_DC854DA","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_5A86D183","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_3A9EA241","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_73D86DF7","path":"rooms/crash_site/crash_site.yy",},
     {"name":"inst_313517CA","path":"rooms/crash_site/crash_site.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"inst_47BC603B","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_1BF79891","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_14D9DD8A","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_F8ACD8B","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_77BA6B2F","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_2F30F809","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_103847FA","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_5F7E1BC7","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_77E61CE8","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_721C439C","path":"rooms/crash_site/crash_site.yy",},
+    {"name":"inst_574E60DE","path":"rooms/crash_site/crash_site.yy",},
+>>>>>>> Stashed changes
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
