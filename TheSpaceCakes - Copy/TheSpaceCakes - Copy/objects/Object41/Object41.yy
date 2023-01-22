@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_npc_villager1",
+  "name": "Object41",
   "spriteId": {
-    "name": "spr_npc_villager1_placeholder",
-    "path": "sprites/spr_npc_villager1_placeholder/spr_npc_villager1_placeholder.yy",
+    "name": "Sprite57",
+    "path": "sprites/Sprite57/Sprite57.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_par_npc",
-    "path": "objects/obj_par_npc/obj_par_npc.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Characters",
-    "path": "folders/Objects/Characters.yy",
+    "name": "other",
+    "path": "folders/Objects/other.yy",
   },
 }

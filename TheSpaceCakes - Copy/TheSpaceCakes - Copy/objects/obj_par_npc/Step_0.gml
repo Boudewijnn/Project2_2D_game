@@ -8,17 +8,7 @@
 if place_meeting(x, y, Obj_player) && !instance_exists(obj_textbox) {
 if keyboard_check_pressed(vk_space) {
 create_textbox(text_id);
-}
-}
+path_end()
 
-// random loop timing for sprite animation
-if (image_speed > 0) {
-	if (image_index == image_number) {
-	image_speed = 1;
-	alarm[0] = irandom_range(loopRange01,loopRange02)
-	
-	}
 }
-
-// depth sorting
-depth = -y;
+}

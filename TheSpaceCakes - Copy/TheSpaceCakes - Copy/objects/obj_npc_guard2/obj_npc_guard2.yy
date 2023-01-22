@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_npc_villager1",
+  "name": "obj_npc_guard2",
   "spriteId": {
-    "name": "spr_npc_villager1_placeholder",
-    "path": "sprites/spr_npc_villager1_placeholder/spr_npc_villager1_placeholder.yy",
+    "name": "spr_npc_guard_placeholder",
+    "path": "sprites/spr_npc_guard_placeholder/spr_npc_guard_placeholder.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
