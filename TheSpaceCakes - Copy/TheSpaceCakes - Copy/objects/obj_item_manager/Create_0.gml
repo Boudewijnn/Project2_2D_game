@@ -35,13 +35,8 @@ global.item_list =
 		
 		
 	bomb : new create_item(
-<<<<<<< Updated upstream
 		"Bomb",
 		"Open barricated doors",
-=======
-		"",
-		"",
->>>>>>> Stashed changes
 		spr_bomb,
 		
 		function()
@@ -68,13 +63,8 @@ global.item_list =
 		
 		
 	bluekey : new create_item(
-<<<<<<< Updated upstream
 		"Blue Key",
 		"Opens blue doors",
-=======
-		"",
-		"",
->>>>>>> Stashed changes
 		spr_key_1,
 		
 		function()
@@ -96,13 +86,8 @@ global.item_list =
 	),
 	
 		redkey : new create_item(
-<<<<<<< Updated upstream
 		"Red Key",
 		"Opens red doors",
-=======
-		"",
-		"",
->>>>>>> Stashed changes
 		spr_key_2,
 		
 		function()
@@ -124,13 +109,8 @@ global.item_list =
 	),
 	
 			greenkey : new create_item(
-<<<<<<< Updated upstream
 		"Green Key",
 		"Opens green doors",
-=======
-		"",
-		"",
->>>>>>> Stashed changes
 		spr_key_3,
 		
 		function()
@@ -151,14 +131,6 @@ global.item_list =
 	
 	),
 		
-<<<<<<< Updated upstream
-=======
-			yellowkey : new create_item(
-		"",
-		"",
-		spr_key_4,
-		true,
->>>>>>> Stashed changes
 		
 	}	 
 	

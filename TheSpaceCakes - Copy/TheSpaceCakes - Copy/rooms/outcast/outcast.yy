@@ -17,11 +17,7 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"npc","instances":[
-<<<<<<< Updated upstream
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7EC979EF","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_outcast","path":"objects/obj_npc_outcast/obj_npc_outcast.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.1257142,"scaleY":0.13737261,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":196.93716,"y":325.0,},
-=======
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7EC979EF","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_outcast","path":"objects/obj_npc_outcast/obj_npc_outcast.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.1257142,"scaleY":1.1373726,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":186.0,"y":319.00006,},
->>>>>>> Stashed changes
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36141665","properties":[
@@ -29,11 +25,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"yPosition","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"value":"360",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"xPosition","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"value":"130",},
           ],"isDnd":false,"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.4375,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":-6.0,},
-<<<<<<< Updated upstream
       ],"visible":false,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-=======
-      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
->>>>>>> Stashed changes
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"enviroment","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62A7FE1","properties":[],"isDnd":false,"objectId":{"name":"background_obj","path":"objects/background_obj/background_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-292.0,"y":-3.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C6F7262","properties":[],"isDnd":false,"objectId":{"name":"outcast_house_placeholder_obj","path":"objects/outcast_house_placeholder_obj/outcast_house_placeholder_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.359375,"scaleY":1.328125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":153.78125,"y":298.35938,},

@@ -34,7 +34,6 @@
     {"id":{"name":"forest_tileset","path":"tilesets/forest_tileset/forest_tileset.yy",},"order":1,},
     {"id":{"name":"snd_type","path":"sounds/snd_type/snd_type.yy",},"order":1,},
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},"order":1,},
-    {"id":{"name":"snd_maze","path":"sounds/snd_maze/snd_maze.yy",},"order":6,},
     {"id":{"name":"obj_par_enviroment","path":"objects/obj_par_enviroment/obj_par_enviroment.yy",},"order":3,},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},"order":0,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
@@ -78,11 +77,6 @@
     {"id":{"name":"spr_textbox_arrow","path":"sprites/spr_textbox_arrow/spr_textbox_arrow.yy",},"order":7,},
     {"id":{"name":"tree_collection_spr","path":"sprites/tree_collection_spr/tree_collection_spr.yy",},"order":5,},
     {"id":{"name":"tree_broccoli_spr","path":"sprites/tree_broccoli_spr/tree_broccoli_spr.yy",},"order":3,},
-<<<<<<< Updated upstream
-=======
-    {"id":{"name":"maze","path":"rooms/maze/maze.yy",},"order":6,},
-    {"id":{"name":"spr_crmGreen_happy","path":"sprites/spr_crmGreen_happy/spr_crmGreen_happy.yy",},"order":14,},
->>>>>>> Stashed changes
     {"id":{"name":"obj_npc_major","path":"objects/obj_npc_major/obj_npc_major.yy",},"order":3,},
     {"id":{"name":"obj_npc_trader","path":"objects/obj_npc_trader/obj_npc_trader.yy",},"order":5,},
     {"id":{"name":"spr_npc_guard_placeholder","path":"sprites/spr_npc_guard_placeholder/spr_npc_guard_placeholder.yy",},"order":5,},
@@ -132,7 +126,6 @@
     {"roomId":{"name":"path_to_village","path":"rooms/path_to_village/path_to_village.yy",},},
     {"roomId":{"name":"village","path":"rooms/village/village.yy",},},
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
-    {"roomId":{"name":"maze","path":"rooms/maze/maze.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
