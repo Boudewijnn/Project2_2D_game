@@ -102,8 +102,11 @@ switch(_text_id) {
 	scr_text("This gate has been closed since poison crocodile started to invade our village")
 	scr_text("Sorry, pal")
 	
-	
-	
+	//----------------------Welcome villager, con 1------------------------------//
+	case "villager_welcome":
+	scr_text("Welcome to our demo project, hope you will enjoy playing it")
+	scr_text("Made by Georgy, Jagoda, Boudewijn, Daria, Max and Mike")
+	break;
 	}
 	
 }

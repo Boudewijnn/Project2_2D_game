@@ -3,9 +3,9 @@ yspd = 0;
 
 move_spd = 1;
 
-sprite[RIGHT] = player_right;
+sprite[RIGHT] = player_left;
 sprite[UP] = player_up;
-sprite[LEFT] = player_left;
+sprite[LEFT] = player_right;
 sprite[DOWN] = player_down;
 
 
