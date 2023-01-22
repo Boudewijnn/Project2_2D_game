@@ -1,4 +1,4 @@
- function scr_set_defaults_for_text() {
+function scr_set_defaults_for_text() {
 	line_break_pos[0, page_number] = 999;
 	line_break_num[page_number] = 0;
 	line_break_offset[page_number] = 0;
@@ -37,14 +37,8 @@ function scr_text(_text){
 				break;
 				
 			// crewmate green
-			case "crwGreen_cry":
-				speaker_sprite[page_number] = spr_crmGreen_cry;
-				txtb_spr[page_number] = spr_textbox_green;
-				snd[page_number] = snd_click;
-				break;
-				
-			case "crwGreen_happy":
-				speaker_sprite[page_number] = spr_crmGreen_happy;
+			case "crw_1_cry":
+				speaker_sprite[page_number] = spr_crewmate_1;
 				txtb_spr[page_number] = spr_textbox_green;
 				snd[page_number] = snd_click;
 				break;
@@ -84,32 +78,3 @@ function create_textbox(_text_id) {
 		 }
 
 }
-/// ---------------prompt control-----------------
-function scr_showPrompt(_object, _x, _y) {
-	 if (instance_exists(_object)) {
-		if (!instance_exists(obj_textbox) && !instance_exists(obj_prompt)) {
-			iii = instance_create_depth(_x, _y, -10000, obj_prompt);
-			return iii;
-		}
-	}
-}
-
-function scr_dismissPrompt(_whichPrompt,_toReset) {
-	if (_whichPrompt != undefined) {
-		if (instance_exists(_whichPrompt)) {
-			// Tell prompt Object to fade out
-			with (_whichPrompt) {
-				fadeMe = "fadeOut";
-				}
-			// Reset appropriate prompt variable
-			if (instance_exists(Obj_player)) {
-				with (Obj_player) {
-					switch _toReset {
-						// Reset npcPrompt
-						case 0: npcPrompt = noone; break;
-						}
-					}
-				}
-			}
-		}
-	}
