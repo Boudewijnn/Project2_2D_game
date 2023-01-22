@@ -7,9 +7,9 @@ switch(_text_id) {
 	case"crm_green":
 	scr_text("Oh! I finally found YOU. What is happening, why are you locked??", "player")
 	scr_text("OOH IM SO GLAD TO SEE YOU!", "crwGreen_cry", -1)
-	scr_text("I'M NOT SURE WHAT HAPPENED, ater crushing I woke up in Major's backyard...", "crwGreen_cry", -1)
+	scr_text("I'M NOT SURE WHAT HAPPENED, ater crushing I woke up in Major's backyard...", "guard", -1)
 		// QUESTION - 1
-	scr_text("I think they dont like strangers on their possesions", "crwGreen_cry", -1) 
+	scr_text("I think they dont like strangers on their possesions", "guard", -1) 
 	scr_text("They for sure don't", "player") 
 		scr_option("Have you seen others?", "crm_green - yes");
 		scr_option("How can I help you??", "crm_green - no");
@@ -37,10 +37,14 @@ switch(_text_id) {
 	
 	//----------------------Guard, con 1---------------------------//
 	case "npc_guard":
-	scr_text("I M   A   G U A R D")
-	scr_text("you shall no pass")
-	scr_text("oh okay, sorry bestie", "player")
-	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ")
+	scr_text("I M   A   G U A R D", "player")
+	scr_text("you shall no pass", "guard", -1)
+	scr_text("oh okay, sorry bestie", "player_happy")
+	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ","crwGreen_happy", -1)
+	scr_text("arte u lost baby girl", "guard", -1)
+	scr_text("u mean baby gorilla", "player")
+	scr_text("im not a monkey bruhh", "crwYellow_cry", -1)
+	scr_text("ohbbla bla bla bla bla bla bla bla bla bla bla bla ","crwYellow_cry", -1)
 	break;
 	
 	//----------------------Major, con 1---------------------------//

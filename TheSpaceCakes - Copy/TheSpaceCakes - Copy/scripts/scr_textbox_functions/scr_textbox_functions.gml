@@ -39,15 +39,37 @@ function scr_text(_text){
 			// crewmate green
 			case "crwGreen_cry":
 				speaker_sprite[page_number] = spr_crmGreen_cry;
-				txtb_spr[page_number] = spr_textbox_green;
+				txtb_spr[page_number] = spr_textbox_crm;
 				snd[page_number] = snd_click;
 				break;
 				
 			case "crwGreen_happy":
 				speaker_sprite[page_number] = spr_crmGreen_happy;
-				txtb_spr[page_number] = spr_textbox_green;
+				txtb_spr[page_number] = spr_textbox_crm;
 				snd[page_number] = snd_click;
 				break;
+				
+			// crewmate red
+			case "crwRed_cry":
+				speaker_sprite[page_number] = spr_crmRed_cry;
+				txtb_spr[page_number] = spr_textbox_crm;
+				snd[page_number] = snd_click;
+				break;
+				
+			// crewmate yellow
+			case "crwYellow_cry":
+				speaker_sprite[page_number] = spr_crmYellow_cry;
+				txtb_spr[page_number] = spr_textbox_crm;
+				snd[page_number] = snd_click;
+				break;
+				
+			// npc guard
+			case "guard":
+				speaker_sprite[page_number] = spr_npc_vill;
+				txtb_spr[page_number] = spr_textbox_aliens;
+				snd[page_number] = snd_click;
+				break;
+				
 			}
 			
 		}
