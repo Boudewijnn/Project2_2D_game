@@ -63,6 +63,7 @@
     {"id":{"name":"spr_npc_outcast_placeholder","path":"sprites/spr_npc_outcast_placeholder/spr_npc_outcast_placeholder.yy",},"order":11,},
     {"id":{"name":"bubble_animation","path":"sprites/bubble_animation/bubble_animation.yy",},"order":21,},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"order":0,},
+    {"id":{"name":"pickup_snd","path":"sounds/pickup_snd/pickup_snd.yy",},"order":5,},
     {"id":{"name":"obj_door_2","path":"objects/obj_door_2/obj_door_2.yy",},"order":3,},
     {"id":{"name":"spr_textbox_blue_happy","path":"sprites/spr_textbox_blue_happy/spr_textbox_blue_happy.yy",},"order":9,},
     {"id":{"name":"tree_broccoli_obj","path":"objects/tree_broccoli_obj/tree_broccoli_obj.yy",},"order":2,},
