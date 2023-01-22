@@ -1,1 +1,1 @@
-item = global.item_list.bomb;
+item = global.item_list.bomb1;

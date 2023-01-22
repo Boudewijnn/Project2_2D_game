@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_door_2",
+  "name": "obj_door_green",
   "spriteId": {
-    "name": "spr_door_2",
-    "path": "sprites/spr_door_2/spr_door_2.yy",
+    "name": "spr_door_3",
+    "path": "sprites/spr_door_3/spr_door_3.yy",
   },
   "solid": true,
   "visible": true,

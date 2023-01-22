@@ -1,1 +1,1 @@
-item = global.item_list.yellowkey;
+item = global.item_list.yellowkey1;

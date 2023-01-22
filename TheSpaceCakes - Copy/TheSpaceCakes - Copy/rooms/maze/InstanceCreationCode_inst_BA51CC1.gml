@@ -1,1 +1,1 @@
-item = global.item_list.bluekey;
+item = global.item_list.bluekey1;

@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_door_4",
+  "name": "obj_door_blue_ins",
   "spriteId": {
-    "name": "spr_door_4",
-    "path": "sprites/spr_door_4/spr_door_4.yy",
+    "name": "spr_door_blue_ins",
+    "path": "sprites/spr_door_blue_ins/spr_door_blue_ins.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
