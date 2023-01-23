@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_spaceship",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_spaceshipcrash",
+    "path": "sprites/spr_spaceshipcrash/spr_spaceshipcrash.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
