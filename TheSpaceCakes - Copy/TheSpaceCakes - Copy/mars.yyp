@@ -100,6 +100,7 @@
     {"id":{"name":"obj_door_green","path":"objects/obj_door_green/obj_door_green.yy",},"order":4,},
     {"id":{"name":"obj_npc_trader40","path":"objects/obj_npc_trader40/obj_npc_trader40.yy",},"order":10,},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"order":0,},
+    {"id":{"name":"Sprite66","path":"sprites/Sprite66/Sprite66.yy",},"order":13,},
     {"id":{"name":"Random_ts","path":"sprites/Random_ts/Random_ts.yy",},"order":7,},
     {"id":{"name":"spr_door_yellow_ins","path":"sprites/spr_door_yellow_ins/spr_door_yellow_ins.yy",},"order":14,},
     {"id":{"name":"tree_glowing_obj","path":"objects/tree_glowing_obj/tree_glowing_obj.yy",},"order":4,},
@@ -213,6 +214,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
