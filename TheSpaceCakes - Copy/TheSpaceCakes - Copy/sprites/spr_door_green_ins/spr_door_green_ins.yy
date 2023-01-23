@@ -70,5 +70,8 @@
   "parent": {
     "name": "Inventory",
     "path": "folders/Sprites/Inventory.yy",
+    "name": "crm",
+    "path": "folders/Sprites/Dialogues/crm.yy",
+
   },
 }

@@ -70,6 +70,7 @@ if setup == false
 			var _char_pos = c+1;
 			var _txt_x = textbox_x + text_x_offset[p] + border;
 			var _txt_y = textbox_y + border;
+			
 			// get current width of the line
 			var _txt_up_to_char = string_copy(text[p], 1, _char_pos);
 			var _current_txt_w = string_width(_txt_up_to_char) - string_width(char[c, p]);
@@ -78,6 +79,7 @@ if setup == false
 			// compensate for string breaks
 			for (var lb = 0; lb < line_break_num[p]; lb++)
 				{
+					
 				// if a current looping character is after a line break
 				if _char_pos >= line_break_pos[lb, p]
 					{
@@ -159,13 +161,11 @@ if accept_key
 		if option_number > 0 {
 			create_textbox(option_link_id[option_pos]);	
 			}
-			
-			global.playerControl = true;
-			instance_destroy()
-
+			instance_destroy();
 			}
-			
+		
 		}
+		
 		
 	// if not done typing
 	else

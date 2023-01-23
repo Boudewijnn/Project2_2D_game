@@ -16,3 +16,4 @@ nearbyNPC = noone;
 lookRange = 30;
 
 npcPrompt = noone;
+
