@@ -72,6 +72,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_270810BF","properties":[],"isDnd":false,"objectId":{"name":"tree_bob_obj","path":"objects/tree_bob_obj/tree_bob_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.51851046,"scaleX":0.9183673,"scaleY":0.8769231,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":451.95917,"y":365.12308,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A034B15","properties":[],"isDnd":false,"objectId":{"name":"tree_shroom_obj","path":"objects/tree_shroom_obj/tree_shroom_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":387.0,"y":366.1911,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DEAE137","properties":[],"isDnd":false,"objectId":{"name":"tree_shroom_obj","path":"objects/tree_shroom_obj/tree_shroom_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":365.0,"y":371.1911,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78D5E92B","properties":[],"isDnd":false,"objectId":{"name":"obj_particle_spawn_screen","path":"objects/obj_particle_spawn_screen/obj_particle_spawn_screen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-80.0,"y":48.0,},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BDF7ABD","properties":[],"isDnd":false,"objectId":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":65.0,"y":-11.0,},
@@ -196,6 +197,7 @@
     {"name":"inst_7B441C16","path":"rooms/choke_point/choke_point.yy",},
     {"name":"inst_70FBA6EB","path":"rooms/choke_point/choke_point.yy",},
     {"name":"inst_39326282","path":"rooms/choke_point/choke_point.yy",},
+    {"name":"inst_78D5E92B","path":"rooms/choke_point/choke_point.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

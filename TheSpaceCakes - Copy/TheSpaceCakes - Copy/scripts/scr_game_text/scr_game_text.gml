@@ -101,6 +101,12 @@ switch(_text_id) {
 	scr_text("need 4 speed")
 	break;
 	
+	//welcome
+	case "villager_welcome":
+	scr_text("Hello player, u have just entered the TheSpaceCake's game", "guard", -1)
+	scr_text("demo version", "guard", -1)
+	break;
+	
 	
 	
 	}
