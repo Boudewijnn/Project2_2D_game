@@ -56,13 +56,14 @@ switch(_text_id) {
 		scr_text("just gather all 2 others mates from your ship and go away")
 		break;
 	case "npc_major - no":
-		scr_text("i AM CHILL")
+		scr_text("I AM CHILL")
 		break;
 	
 	//----------------------Outcast, con 1---------------------------//
 	case "npc_outcast":
 	scr_text("HE he He heloo")
-	scr_text("im a pumpernikiel - outcast")
+	scr_text("I'm a Pumpernikiel - outcast")
+	scr_text("Don't step on my cabbages, or I'll kill you")
 	break;
 	
 	//----------------------Trader, con 1---------------------------//
@@ -73,34 +74,36 @@ switch(_text_id) {
 	
 	//----------------------Villager 1, con 1---------------------------//
 	case "npc_vil_1":
-	scr_text("if you go right u will end up in village")
-	scr_text("if u go down u will be eate by the bears lmao")
-	scr_text("chose whisely")
+	scr_text("Just collecting some berries here")
+	scr_text("I love berries")
 	break;
 	
 	//----------------------Villager 2, con 1---------------------------//
 	case "npc_vil_2":
-	scr_text("22222222222")
-	scr_text("pale sobie cygara jak nikt nie patrzy")
+	scr_text("Just shillin' around")
+	scr_text("I want some beer")
 	break;
 	
 	//----------------------Villager 3, con 1---------------------------//
 	case "npc_vil_3":
-	scr_text("3333333333333333333333")
-	scr_text("stary jaka ja jestem kurwa zmenczona")
+	scr_text("Never gonna give you up")
+	scr_text("Never gonna let you down")
+	scr_text("Never gonna run around")
+	scr_text("And desert you")
 	break;
 	
 	//----------------------Villager 4, con 1---------------------------//
 	case "npc_vil_4":
-	scr_text("4444444444444444444")
+	scr_text("")
 	scr_text("need 4 speed")
 	break;
 	
 	//----------------------Guard 2, con 1------------------------------//
 	
 	case "npc_guard_2":
-	scr_text("This gate has been closed since poison crocodile started to invade our village")
-	scr_text("Sorry, pal")
+	scr_text("I used to be an adventurer like you")
+	scr_text("Then I took an arrow in the knee")
+	break;
 	
 	//----------------------Welcome villager, con 1------------------------------//
 	case "villager_welcome":

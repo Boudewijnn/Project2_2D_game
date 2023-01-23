@@ -84,6 +84,7 @@ function scr_showPrompt(_object, _x, _y) {
 		if (!instance_exists(obj_textbox) && !instance_exists(obj_prompt)) {
 			iii = instance_create_depth(_x, _y, -10000, obj_prompt);
 			return iii;
+			
 		}
 	}
 }

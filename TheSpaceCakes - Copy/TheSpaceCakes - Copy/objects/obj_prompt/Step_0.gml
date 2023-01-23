@@ -21,9 +21,10 @@ switch fadeMe {
 			}
 		if (image_alpha <= 0) {
 			fadeMe = "fadeDone";
-			alarm[0] = 2; // queue to destroy
+			alarm[0] = 1; // queue to destroy
 			}
 		}; break;
+	
 	}
 
 
