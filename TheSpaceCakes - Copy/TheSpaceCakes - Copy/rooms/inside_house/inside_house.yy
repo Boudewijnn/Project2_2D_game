@@ -16,10 +16,14 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"door","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B201187","properties":[],"isDnd":false,"objectId":{"name":"Obj_warp_block_house","path":"objects/Obj_warp_block_house/Obj_warp_block_house.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":172.0,},
-      ],"visible":false,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Objects","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F99F39A","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"roomName","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"value":"outcast",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"yPosition","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"value":"317",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"xPosition","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"value":"132",},
+          ],"isDnd":false,"objectId":{"name":"Obj_warp_block","path":"objects/Obj_warp_block/Obj_warp_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":169.0,},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"door","instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Environment","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_98328C3_1_2","properties":[],"isDnd":false,"objectId":{"name":"background_obj","path":"objects/background_obj/background_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-288.0,"y":0.0,},
       ],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -53,7 +57,7 @@
     {"name":"inst_7515274F","path":"rooms/inside_house/inside_house.yy",},
     {"name":"inst_4819C425","path":"rooms/inside_house/inside_house.yy",},
     {"name":"inst_5E37D37F","path":"rooms/inside_house/inside_house.yy",},
-    {"name":"inst_5B201187","path":"rooms/inside_house/inside_house.yy",},
+    {"name":"inst_2F99F39A","path":"rooms/inside_house/inside_house.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
