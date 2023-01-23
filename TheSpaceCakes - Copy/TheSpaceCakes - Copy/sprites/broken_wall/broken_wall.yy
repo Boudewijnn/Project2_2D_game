@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_door_bar",
+  "name": "broken_wall",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -12,14 +12,14 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 0,
-  "bbox_bottom": 26,
+  "bbox_top": 21,
+  "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 48,
-  "height": 27,
+  "height": 48,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -28,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c15d0765-40b5-44ea-81c0-4103e6a8de2d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67915575-3328-4ed8-917f-15dabd68b830",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_door_bar",
+    "name": "broken_wall",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"286e1531-94f7-4cc5-9611-196c75c00972","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c15d0765-40b5-44ea-81c0-4103e6a8de2d","path":"sprites/spr_door_bar/spr_door_bar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f1755c60-4950-4531-ab11-1a2f98c46da3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"67915575-3328-4ed8-917f-15dabd68b830","path":"sprites/broken_wall/broken_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,11 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"55e67178-9c1b-4fdd-830f-3d5b10b5b186","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6216c23e-9d6b-413b-ade3-8a94a74b46b2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Inventory",
-    "path": "folders/Sprites/Inventory.yy",
+    "name": "Objects",
+    "path": "folders/Sprites/Environment/Objects.yy",
   },
 }
