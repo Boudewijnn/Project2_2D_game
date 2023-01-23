@@ -3,9 +3,9 @@ yspd = 0;
 
 move_spd = 1;
 
-sprite[RIGHT] = player_left;
+sprite[RIGHT] = player_right;
 sprite[UP] = player_up;
-sprite[LEFT] = player_right;
+sprite[LEFT] = player_left;
 sprite[DOWN] = player_down;
 
 
@@ -16,3 +16,4 @@ nearbyNPC = noone;
 lookRange = 30;
 
 npcPrompt = noone;
+

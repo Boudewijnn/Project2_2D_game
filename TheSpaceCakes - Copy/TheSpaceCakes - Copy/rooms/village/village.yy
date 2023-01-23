@@ -440,7 +440,6 @@
     {"name":"inst_717CE1ED","path":"rooms/village/village.yy",},
     {"name":"inst_3CC7254D","path":"rooms/village/village.yy",},
     {"name":"inst_72788C17","path":"rooms/village/village.yy",},
-    {"name":"inst_5546517F","path":"rooms/village/village.yy",},
     {"name":"inst_71B1F7A","path":"rooms/village/village.yy",},
     {"name":"inst_54AAF5A5","path":"rooms/village/village.yy",},
     {"name":"inst_62A06A1D","path":"rooms/village/village.yy",},

@@ -6,28 +6,28 @@ switch(_text_id) {
 	//----------------------crewmate green, con 1---------------------------//
 	case"crm_green":
 	scr_text("Oh! I finally found YOU. What is happening, why are you locked??", "player")
-	scr_text("OOH IM SO GLAD TO SEE YOU!", "crw_1_cry", -1)
-	scr_text("I'M NOT SURE WHAT HAPPENED, ater crushing I woke up in Major's backyard...", "crw_1_cry", -1)
+	scr_text("OOH IM SO GLAD TO SEE YOU!", "crwGreen_cry", -1)
+	scr_text("I'M NOT SURE WHAT HAPPENED, ater crushing I woke up in Major's backyard...", "guard", -1)
 		// QUESTION - 1
-	scr_text("I think they dont like strangers on their possesions", "crw_1_cry", -1) 
+	scr_text("I think they dont like strangers on their possesions", "guard", -1) 
 	scr_text("They for sure don't", "player") 
 		scr_option("Have you seen others?", "crm_green - yes");
 		scr_option("How can I help you??", "crm_green - no");
 		break;
 		// outcome QS - 1
 		case "crm_green - yes":
-		scr_text("I've seen Orange for a brief moment entering one of aliens house..", "crw_1_cry", -1)
-		scr_text("please help me... i don't know how long i will manage being locked in here, nights are so cold in here", "crw_1_cry", -1)
+		scr_text("I've seen Orange for a brief moment entering one of aliens house..", "crwGreen_happy", -1)
+		scr_text("please help me... i don't know how long i will manage being locked in here, nights are so cold in here", "crwGreen_happy", -1)
 		scr_text("Of course i'll help you", "player")
 			scr_option("How can i do that?", "crm_green - yes_1"); // QUESTION - 2
 			//not needed rn: scr_option("okay", "crm_green - no_1");
 			break;
 		case "crm_green - no":
-		scr_text("Speak to the Major, he is the scary one in cape, living at the end of the village", "crw_1_cry", -1)
+		scr_text("Speak to the Major, he is the scary one in cape, living at the end of the village", "crwGreen_happy", -1)
 			break;
 			// outcome QS - 2
 			case "crm_green - yes_1":
-			scr_text("Speak to the Major, he is the scary one in cape, living at the end of the village", "crw_1_cry", -1)
+			scr_text("Speak to the Major, he is the scary one in cape, living at the end of the village", "crwGreen_happy", -1)
 				break;
 			//not needed rn: case "crm_green - no_1":
 			//not needed rn: instance_destroy()
@@ -37,10 +37,15 @@ switch(_text_id) {
 	
 	//----------------------Guard, con 1---------------------------//
 	case "npc_guard":
-	scr_text("I M   A   G U A R D")
-	scr_text("you shall no pass")
-	scr_text("oh okay, sorry bestie", "player")
-	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ")
+	scr_text("I M   A   G U A R D", "player")
+	scr_text("you shall no pass", "guard", -1)
+	scr_text("oh okay, sorry bestie", "player_happy")
+	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ","crwGreen_happy", -1)
+	scr_text("BeStIeEEEeeeEEeeEe?! BeStIeEEEeeEEeEEeEeEeeEEeeEe?! #&^(*^%^$%$#@#@%$^*^&%^$ ","crwRed_cry", -1)
+	scr_text("arte u lost baby girl", "guard", -1)
+	scr_text("u mean baby gorilla fndjaognofbibviubduivbiv", "mayor")
+	scr_text("im not a monkey bruhh", "crwYellow_cry", -1)
+	scr_text("ohbbla bla bla bla bla bla bla bla bla bla bla bla ","crwYellow_cry", -1)
 	break;
 	
 	//----------------------Major, con 1---------------------------//
@@ -56,14 +61,13 @@ switch(_text_id) {
 		scr_text("just gather all 2 others mates from your ship and go away")
 		break;
 	case "npc_major - no":
-		scr_text("I AM CHILL")
+		scr_text("i AM CHILL")
 		break;
 	
 	//----------------------Outcast, con 1---------------------------//
 	case "npc_outcast":
 	scr_text("HE he He heloo")
-	scr_text("I'm a Pumpernikiel - outcast")
-	scr_text("Don't step on my cabbages, or I'll kill you")
+	scr_text("im a pumpernikiel - outcast")
 	break;
 	
 	//----------------------Trader, con 1---------------------------//
@@ -74,42 +78,31 @@ switch(_text_id) {
 	
 	//----------------------Villager 1, con 1---------------------------//
 	case "npc_vil_1":
-	scr_text("Just collecting some berries here")
-	scr_text("I love berries")
+	scr_text("if you go right u will end up in village")
+	scr_text("if u go down u will be eate by the bears lmao")
+	scr_text("chose whisely")
 	break;
 	
 	//----------------------Villager 2, con 1---------------------------//
 	case "npc_vil_2":
-	scr_text("Just shillin' around")
-	scr_text("I want some beer")
+	scr_text("22222222222")
+	scr_text("pale sobie cygara jak nikt nie patrzy")
 	break;
 	
 	//----------------------Villager 3, con 1---------------------------//
 	case "npc_vil_3":
-	scr_text("Never gonna give you up")
-	scr_text("Never gonna let you down")
-	scr_text("Never gonna run around")
-	scr_text("And desert you")
+	scr_text("3333333333333333333333")
+	scr_text("stary jaka ja jestem kurwa zmenczona")
 	break;
 	
 	//----------------------Villager 4, con 1---------------------------//
 	case "npc_vil_4":
-	scr_text("")
+	scr_text("4444444444444444444")
 	scr_text("need 4 speed")
 	break;
 	
-	//----------------------Guard 2, con 1------------------------------//
 	
-	case "npc_guard_2":
-	scr_text("I used to be an adventurer like you")
-	scr_text("Then I took an arrow in the knee")
-	break;
 	
-	//----------------------Welcome villager, con 1------------------------------//
-	case "villager_welcome":
-	scr_text("Welcome to our demo project, hope you will enjoy playing it")
-	scr_text("Made by Georgy, Jagoda, Boudewijn, Daria, Max and Mike")
-	break;
 	}
 	
 }
