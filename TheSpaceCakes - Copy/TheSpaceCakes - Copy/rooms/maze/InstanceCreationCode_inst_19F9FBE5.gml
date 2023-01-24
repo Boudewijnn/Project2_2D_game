@@ -1,1 +1,1 @@
-item = global.item_list.redkey1;
+item = global.item_list.redkey;

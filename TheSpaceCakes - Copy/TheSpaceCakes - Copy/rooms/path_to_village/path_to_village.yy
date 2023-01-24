@@ -23,6 +23,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18A52CD7","properties":[],"isDnd":false,"objectId":{"name":"tree_bush_obj","path":"objects/tree_bush_obj/tree_bush_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":243.0,"y":141.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A5F1A7","properties":[],"isDnd":false,"objectId":{"name":"tree_glowing_obj","path":"objects/tree_glowing_obj/tree_glowing_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":153.0,"y":147.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B5C228F","properties":[],"isDnd":false,"objectId":{"name":"tree_grinch_obj","path":"objects/tree_grinch_obj/tree_grinch_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":179.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74A52A7A","properties":[],"isDnd":false,"objectId":{"name":"obj_item_ingame","path":"objects/obj_item_ingame/obj_item_ingame.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":369.0,"y":139.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D946FBD","properties":[],"isDnd":false,"objectId":{"name":"Object5","path":"objects/Object5/Object5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":351.0,"y":122.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3AAE1B4E","properties":[],"isDnd":false,"objectId":{"name":"Object5","path":"objects/Object5/Object5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":241.0,"y":113.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46C7039D","properties":[],"isDnd":false,"objectId":{"name":"Object5","path":"objects/Object5/Object5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":73.0,"y":81.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"door","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4259575F","properties":[
@@ -74,6 +78,10 @@
     {"name":"inst_18A52CD7","path":"rooms/path_to_village/path_to_village.yy",},
     {"name":"inst_A5F1A7","path":"rooms/path_to_village/path_to_village.yy",},
     {"name":"inst_2B5C228F","path":"rooms/path_to_village/path_to_village.yy",},
+    {"name":"inst_74A52A7A","path":"rooms/path_to_village/path_to_village.yy",},
+    {"name":"inst_5D946FBD","path":"rooms/path_to_village/path_to_village.yy",},
+    {"name":"inst_3AAE1B4E","path":"rooms/path_to_village/path_to_village.yy",},
+    {"name":"inst_46C7039D","path":"rooms/path_to_village/path_to_village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
